@@ -1,7 +1,122 @@
+/* rest */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
+}
+
+:root {
+    --azzurrino: #B4D0E7;
+    --azzurrro: #0061FF;
+    --bordeaux: #61082B;
+    --verdechiaro: #A2D39B;
+    --azzurroquadro: #0093CE;
+    --rosso: #FF1C1C;
+    --rossoscuro: #D5001F;
+    --blu: #0D2481;
+    --giallo: #FFD830;
+
+}
+
+/* utility */
+.inlineblock {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.contenitore-largo {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    /* debug */
+    background-color: rgb(152, 202, 16);
+    border: 2px solid red;
+    height: 500px;
+}
+
+.contenitore {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+/* colori box */
+.verde{
+    background-color: var(--verdechiaro);
+}
+.bordeaux{
+ background-color: var(--bordeaux);
+}
+.azzurro{
+    background-color: var(--azzurroquadro);
+}
+.rosso{
+    background-color: var(--rosso);
+}
+/* header */
+header {
+    background-color: var(--azzurrino);
+}
+
+/* sezione nav */
+.nav {
+
+    width: 100%;
+    position: fixed;
+    /* debug */
+    background-color: black;
+    border: 2px solid red;
+    height: 50px;
+}
+.sezione{
+    width: calc(100% / 3);
+    /* debug */
+    background-color: rgb(16, 165, 202);
+    border: 2px solid red;
+    height: 400px;
+}
+/* box1 debug */
+.box1{
+    background-color: rgb(202, 16, 97);
+    border: 2px solid red;
+    height: 200px; 
+}
+/* box2 debug */
+.box2{
+    background-color: rgb(16, 202, 159);
+    border: 2px solid red;
+    height: 400px; 
+}
+/* sponsor */
+.sponsor{
+    width: calc(100% / 3);
+}
+.box{
+    width: calc(100% / 2);
+}
+/* parte finale */
+.prova-gratuita{
+    background-color: var(--azzurrino);
+    /* debug */
+    border: 2px solid red;
+    height: 400px; 
+}
+/* footer */
+footer{
+    background-color: black;
+    /* debug */
+    height: 600px; 
 }
