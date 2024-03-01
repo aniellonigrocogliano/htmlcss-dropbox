@@ -54,12 +54,10 @@ a:link {
 .centramentoflex {
     align-items: center;
 }
-
 .delineamento {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .delineamento-doppio {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -193,6 +191,7 @@ h4{
 
 .sezione {
     width: calc((100% / 3) - 2%);
+    
 }
 
 .card-bordo-intestazione{
@@ -223,7 +222,7 @@ h4{
     margin-right: 65%;
     color: lightgray;
 }
-.card-bordo a{
+.link a{
     color: blue;
     text-decoration: underline;
 }
@@ -257,6 +256,9 @@ h4{
 }
 .colore-check{
     color:var(--azzurrro)
+}
+.colore-bianco{
+    color: white;
 }
 /* parte finale */
 .prova-gratuita {
