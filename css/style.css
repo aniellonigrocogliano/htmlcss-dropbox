@@ -65,6 +65,11 @@ a:link {
     padding-bottom: 50px;
 }
 
+.intentazione{
+    text-indent: -10px;
+    padding-left: 25px;
+}
+
 button {
     color: white;
     background-color: var(--azzurrro);
@@ -189,7 +194,7 @@ h4{
     border: 0.5px solid lightgrey;
     border-bottom: 0px;
     text-align: center;
-    padding: 3px;
+    padding: 8px;
 }
 
 .card-bordo{
@@ -204,8 +209,12 @@ h4{
     font-weight: italic;
     font-size: 0.6rem;
 }
-.icona-rientranza{ 
-     
+.divisore-piani{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 65%;
+    color: lightgray;
 }
 .card-bordo a{
     color: blue;
@@ -233,7 +242,9 @@ h4{
 .box {
     width: calc(100% / 2);
 }
-
+.colore-check{
+    color:var(--azzurrro)
+}
 /* parte finale */
 .prova-gratuita {
     background-color: var(--azzurrino);
@@ -247,4 +258,5 @@ footer {
     background-color: black;
     /* debug */
     height: 600px;
+    
 }
