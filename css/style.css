@@ -7,6 +7,14 @@
     list-style-type: none;
 }
 
+img {
+    max-width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
 :root {
     --azzurrino: #B4D0E7;
     --azzurrro: #0061FF;
@@ -21,10 +29,6 @@
 }
 
 /* utility */
-.inlineblock {
-    display: inline-block;
-}
-
 .flex {
     display: flex;
 }
@@ -37,35 +41,79 @@
     flex-wrap: nowrap;
 }
 
+.contenitore-largo-spostamento {
+    margin-top: 70px;
+}
+
+.allineamentoflex {
+    justify-content: center;
+}
+.spaziatura-flex{
+    justify-content: space-between;
+}
+.centramentoflex {
+    align-items: center;
+}
+
+.delineamento {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.delineamento-doppio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+button {
+    color: white;
+    background-color: var(--azzurrro);
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.font-btn {
+    font-size: 1rem;
+}
+.font-freccia{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    font-style: ;
+}
+
 .contenitore-largo {
     width: 80%;
     margin: 0 auto;
-    max-width: 1100px;
-    /* debug */
-    background-color: rgb(152, 202, 16);
-    border: 2px solid red;
-    height: 500px;
+    max-width: 1200px;
 }
 
 .contenitore {
     width: 60%;
     margin: 0 auto;
     max-width: 1000px;
-
 }
+
+
+
 /* colori box */
-.verde{
+.verde {
     background-color: var(--verdechiaro);
 }
-.bordeaux{
- background-color: var(--bordeaux);
+
+.bordeaux {
+    background-color: var(--bordeaux);
 }
-.azzurro{
+
+.azzurro {
     background-color: var(--azzurroquadro);
 }
-.rosso{
+
+.rosso {
     background-color: var(--rosso);
 }
+
 /* header */
 header {
     background-color: var(--azzurrino);
@@ -73,50 +121,130 @@ header {
 
 /* sezione nav */
 .nav {
-
+    background-color: white;
     width: 100%;
     position: fixed;
-    /* debug */
-    background-color: black;
-    border: 2px solid red;
     height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
 }
-.sezione{
-    width: calc(100% / 3);
-    /* debug */
-    background-color: rgb(16, 165, 202);
+
+.nav a {
+    color: black;
+}
+li{
+    padding: 5px;
+}
+.nav li {
+    padding: 8px;
+    text-align: center;
+}
+
+/* sezione buisness */
+.jumbo {
+    position: absolute;
+    height: 50%;
+}
+
+h1 {
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+h3{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h4{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.casella-scelta {
+    margin-right: 45%;
+}
+
+.destra-largo {
+    width: calc(2*(100% /3));
+}
+
+.sinistra-largo {
+    width: calc(100% /3);
+}
+
+.sezione {
+    width: calc((100% / 3) - 2%);
+}
+
+.card-bordo-intestazione{
+    border: 0.5px solid lightgrey;
+    border-bottom: 0px;
+    text-align: center;
+    padding: 3px;
+}
+
+.card-bordo{
+    border: 0.5px solid lightgrey;
+    padding:5px 0 5px 25px;
+}
+.prezzo{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.periodo{
+    font-weight: italic;
+    font-size: 0.6rem;
+}
+.icona-rientranza{ 
+     
+}
+.card-bordo a{
+    color: blue;
+    text-decoration: underline;
+}
+/* box1 debug */
+.box1 {
+    background-color: rgb(202, 16, 97);
+    border: 2px solid red;
+    height: 200px;
+}
+
+/* box2 debug */
+.box2 {
+    background-color: rgb(16, 202, 159);
     border: 2px solid red;
     height: 400px;
 }
-/* box1 debug */
-.box1{
-    background-color: rgb(202, 16, 97);
-    border: 2px solid red;
-    height: 200px; 
-}
-/* box2 debug */
-.box2{
-    background-color: rgb(16, 202, 159);
-    border: 2px solid red;
-    height: 400px; 
-}
+
 /* sponsor */
-.sponsor{
+.sponsor {
     width: calc(100% / 3);
 }
-.box{
+
+.box {
     width: calc(100% / 2);
 }
+
 /* parte finale */
-.prova-gratuita{
+.prova-gratuita {
     background-color: var(--azzurrino);
     /* debug */
     border: 2px solid red;
-    height: 400px; 
+    height: 400px;
 }
+
 /* footer */
-footer{
+footer {
     background-color: black;
     /* debug */
-    height: 600px; 
+    height: 600px;
 }
