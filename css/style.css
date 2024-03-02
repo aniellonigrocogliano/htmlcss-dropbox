@@ -91,7 +91,7 @@ button:hover{
 .font-freccia{
     font-size: 2.5rem;
     padding-bottom: 10px;
-    font-style: ;
+    font-style: bold;
 }
 
 .contenitore-largo {
@@ -297,9 +297,7 @@ h4{
     background-color: var(--azzurrino);
 
 }
-.nascosto{
-    
-}
+
 .faq > p{
 display: none;
 }
