@@ -25,6 +25,7 @@ a:link {
     --rossoscuro: #D5001F;
     --blu: #0D2481;
     --giallo: #FFD830;
+    --grigio:#F5F5F5;
 
 }
 
@@ -32,7 +33,6 @@ a:link {
 .flex {
     display: flex;
 }
-
 .wrap {
     flex-wrap: wrap;
 }
@@ -121,12 +121,19 @@ button {
 .rosso {
     background-color: var(--rosso);
 }
-
+.giallo{
+    background-color: var(--giallo);
+}
+.azzurrino{
+    background-color: var(--azzurrino);
+}
 /* header */
 header {
     background-color: var(--azzurrino);
 }
-
+.blu{
+    background-color: var(--blu);
+}
 /* sezione nav */
 .nav {
     background-color: white;
@@ -241,6 +248,7 @@ h4{
 .colonna1di3{
     width: calc(100% /3);
 }
+
 /* box2 debug */
 .box2 {
     background-color: rgb(16, 202, 159);
@@ -253,13 +261,16 @@ h4{
     width: calc(100% / 3);
 }
 
+.grigiosfondo{
+    background-color: var(--grigio);
+}
 .box {
     width:33vh;
     height: 33vh;
     text-align: center;
 }
 .box > img {
-    max-width: 6rem;
+    max-width: 20vh;
     height: auto;
     margin: 25%;
     display: block;
