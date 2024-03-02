@@ -85,6 +85,9 @@ button {
 .font-btn {
     font-size: 1rem;
 }
+button:hover{
+    filter: brightness(2);
+}
 .font-freccia{
     font-size: 2.5rem;
     padding-bottom: 10px;
@@ -144,6 +147,11 @@ header {
     align-items: center;
     z-index: 999;
 }
+
+.nav li.bordo  a:hover{
+    padding-bottom: 15px;
+border-bottom: 5px solid var(--azzurroquadro);
+    }
 
 .nav a {
     color: black;
@@ -282,13 +290,25 @@ h4{
     color: white;
 }
 /* parte finale */
+.viola{
+    color: var(--bordeaux);
+}
 .prova-gratuita {
     background-color: var(--azzurrino);
-    /* debug */
-    border: 2px solid red;
-    height: 400px;
-}
 
+}
+.nascosto{
+    
+}
+.faq > p{
+display: none;
+}
+.faq:hover > p{
+    display: inline;
+}
+.simbolo-faq{
+    text-align:right;
+}
 /* footer */
 footer {
     background-color: black;
