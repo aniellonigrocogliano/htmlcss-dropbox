@@ -238,7 +238,9 @@ h4{
 .colonna30{
     width: 30%;
 }
-
+.colonna1di3{
+    width: calc(100% /3);
+}
 /* box2 debug */
 .box2 {
     background-color: rgb(16, 202, 159);
@@ -252,7 +254,15 @@ h4{
 }
 
 .box {
-    width: calc(100% / 2);
+    width:33vh;
+    height: 33vh;
+    text-align: center;
+}
+.box > img {
+    max-width: 6rem;
+    height: auto;
+    margin: 25%;
+    display: block;
 }
 .colore-check{
     color:var(--azzurrro)
