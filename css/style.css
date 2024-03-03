@@ -309,8 +309,21 @@ display: none;
 }
 /* footer */
 footer {
-    background-color: black;
-    /* debug */
-    height: 600px;
-    
+    background-color: black;   
+}
+.biancoh3{
+    color: white;
+}
+footer a {
+    color:white
+}
+.lingua{
+    color: grey;
+}
+.divisore-lingua{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right:85%;
+    color: grey;
 }
