@@ -193,7 +193,10 @@ h4{
 }
 
 .casella-scelta {
-    margin-right: 45%;
+    align-items: center;
+}
+.casella-scelta > label{
+    padding:5px;
 }
 
 .destra-largo {
@@ -256,14 +259,6 @@ h4{
 .colonna1di3{
     width: calc(100% /3);
 }
-
-/* box2 debug */
-.box2 {
-    background-color: rgb(16, 202, 159);
-    border: 2px solid red;
-    height: 400px;
-}
-
 /* sponsor */
 .sponsor {
     width: calc(100% / 3);
@@ -273,9 +268,11 @@ h4{
     background-color: var(--grigio);
 }
 .box {
-    width:33vh;
-    height: 33vh;
+    width: 34vh;
+    height: 34vh;
     text-align: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     
 }
 .boxbordo{
