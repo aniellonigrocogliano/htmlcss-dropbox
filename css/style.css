@@ -276,12 +276,17 @@ h4{
     width:33vh;
     height: 33vh;
     text-align: center;
+    
+}
+.boxbordo{
+    border: 15px solid #D1E9CD;
 }
 .box > img {
     max-width: 20vh;
     height: auto;
     margin: 25%;
     display: block;
+    filter: invert(100%) sepia(10%) saturate(7460%) hue-rotate(236deg) brightness(112%) contrast(111%);
 }
 .colore-check{
     color:var(--azzurrro)
@@ -297,7 +302,6 @@ h4{
     background-color: var(--azzurrino);
 
 }
-
 .faq > p{
 display: none;
 }
