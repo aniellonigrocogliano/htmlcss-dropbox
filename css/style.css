@@ -167,7 +167,10 @@ li{
 /* sezione buisness */
 .jumbo {
     position: absolute;
-    height: 50%;
+   bottom: 30%;
+   right: 20%;
+
+   height: 40vh;
 }
 
 h1 {
@@ -191,7 +194,6 @@ h4{
     font-size: 1rem;
     font-weight: bold;
 }
-
 .casella-scelta {
     align-items: center;
 }
@@ -201,6 +203,7 @@ h4{
 
 .destra-largo {
     width: calc(2*(100% /3));
+
 }
 
 .sinistra-largo {
@@ -268,8 +271,8 @@ h4{
     background-color: var(--grigio);
 }
 .box {
-    width: 34vh;
-    height: 34vh;
+    width: calc(100%/2);
+    height: (same-as-width);
     text-align: center;
     align-items: flex-start;
     justify-content: flex-start;
@@ -327,4 +330,7 @@ footer a {
     margin-left: 0px;
     margin-right:85%;
     color: grey;
+}
+.padding-centro{
+    padding-left: 15px;
 }
